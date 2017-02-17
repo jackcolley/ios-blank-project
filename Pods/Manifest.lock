@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireNetworkActivityIndicator (2.1.0):
+    - Alamofire (~> 4.1)
+  - FontAwesome.swift (1.1.0)
+  - Heimdallr (3.5.1):
+    - Heimdallr/Core (= 3.5.1)
+  - Heimdallr/Core (3.5.1):
+    - Result (~> 3.0)
+  - IQKeyboardManagerSwift (4.0.8)
+  - JSONJoy-Swift (2.1.0)
+  - Pluralize.swift (1.0)
+  - Result (3.1.0)
+  - SVProgressHUD (2.1.2)
+  - SwiftyAttributes (3.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireNetworkActivityIndicator (~> 2.0)
+  - FontAwesome.swift (from `https://github.com/thii/FontAwesome.swift.git`, branch `master`)
+  - Heimdallr (from `https://github.com/marcelofabri/Heimdallr.swift.git`, branch `swift-3.0`)
+  - IQKeyboardManagerSwift
+  - JSONJoy-Swift (~> 2.1.0)
+  - Pluralize.swift (from `https://github.com/joshualat/Pluralize.swift.git`, branch `master`)
+  - SVProgressHUD
+  - SwiftyAttributes
+
+EXTERNAL SOURCES:
+  FontAwesome.swift:
+    :branch: master
+    :git: https://github.com/thii/FontAwesome.swift.git
+  Heimdallr:
+    :branch: swift-3.0
+    :git: https://github.com/marcelofabri/Heimdallr.swift.git
+  Pluralize.swift:
+    :branch: master
+    :git: https://github.com/joshualat/Pluralize.swift.git
+
+CHECKOUT OPTIONS:
+  FontAwesome.swift:
+    :commit: 2309b11d3ed5895fda0bfdc392d16a1d199c97c0
+    :git: https://github.com/thii/FontAwesome.swift.git
+  Heimdallr:
+    :commit: 213140048f6341516fcb3a4ae083a7bd83e2301b
+    :git: https://github.com/marcelofabri/Heimdallr.swift.git
+  Pluralize.swift:
+    :commit: 45ec1ca1094293b4985934d8df57150fe2d417aa
+    :git: https://github.com/joshualat/Pluralize.swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireNetworkActivityIndicator: 4716f6554bdfb9c7cf13b1e0e3af21163129690a
+  FontAwesome.swift: beb63f208f69f998d00fdb2d4d5d8813b494f3d8
+  Heimdallr: 8881bb8ef21dcd347fd1c8b783ae0dafe68a4297
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  JSONJoy-Swift: aad55442c58187579eea0790080041b3ba255f05
+  Pluralize.swift: 39197053939578ca42c3034081d2887016ce5a33
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyAttributes: f337a324cd21f1b18782ab85d3478ccae73f7593
+
+PODFILE CHECKSUM: ae2a80080f39b95612038f5e86e199cc7e55e799
+
+COCOAPODS: 1.2.0
