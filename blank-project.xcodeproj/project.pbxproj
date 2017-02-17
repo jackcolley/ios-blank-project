@@ -100,6 +100,11 @@
 		A5BA28BE1E56E9CE00B31848 /* blank-project */ = {
 			isa = PBXGroup;
 			children = (
+				A5BA28E31E56ED9C00B31848 /* Views */,
+				A5BA28E21E56ECAF00B31848 /* Helpers */,
+				A5BA28E11E56EC9500B31848 /* Services */,
+				A5BA28E01E56EC7600B31848 /* Models */,
+				A5BA28DF1E56EC3100B31848 /* Controllers */,
 				A5BA28BF1E56E9CE00B31848 /* AppDelegate.swift */,
 				A5BA28C11E56E9CE00B31848 /* ViewController.swift */,
 				A5BA28C31E56E9CE00B31848 /* Main.storyboard */,
@@ -117,6 +122,41 @@
 				A5BA28D61E56E9CE00B31848 /* Info.plist */,
 			);
 			path = "blank-projectTests";
+			sourceTree = "<group>";
+		};
+		A5BA28DF1E56EC3100B31848 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5BA28E01E56EC7600B31848 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5BA28E11E56EC9500B31848 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5BA28E21E56ECAF00B31848 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A5BA28E31E56ED9C00B31848 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DBFBF6237E57961D8335A0D4 /* Frameworks */ = {
@@ -539,6 +579,7 @@
 				A5BA28DB1E56E9CE00B31848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5BA28DC1E56E9CE00B31848 /* Build configuration list for PBXNativeTarget "blank-projectTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +588,7 @@
 				A5BA28DE1E56E9CE00B31848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
